@@ -1,0 +1,115 @@
+TestNG Notes :
+
+TestNG -->
+	Test Invocation
+		@Test
+	Assertions
+		
+	Reports
+		html
+		xml
+		gui
+	
+Installation in eclipse :
+	
+	Eclipse marketplace --> testng
+	
+Adding to BuildPath for a project 
+	Buildpath --> Libraries --> Add system Library --> TestNG
+	
+Using Testng :
+	To invoke any method --> Annotations --> Metadata
+		@Test
+			class level
+			method level
+			
+	Alpha order
+	
+	Attributes list for @Test :
+	
+		priority --> lowest executes first
+					If you don't give priority then it consider 0 as priority.
+		enabled --> false it will not be executed.
+		groups  ---> to define multiple groups
+		
+	Annotations List
+		@Test
+		@BeforeMethod
+		@AfterMethod
+		@BeforeClass
+		@AfterClass
+
+	configuration methods
+	
+	
+	Ways to trigger execution :
+		class -->
+		method
+		package
+		
+		groups
+		
+		suite
+		
+	Manual Testing
+		testing types
+			regression
+			smoke
+			unit 
+			
+			
+			1000
+			
+	testng.xml
+		declarative
+	
+	
+	
+	
+	
+Git Notes :
+
+Git :
+
+	push code repo
+		1.git pull
+			--> Already upto date 
+			--> please commit or stash your changes.
+					--> git stash --> to remove your local changes.
+					--> git commit -m "message"
+					
+		2.git status
+		3.git add <file-names>
+		4.git commit -m "message"
+		
+		5.git pull
+			--> If it already upto date.
+			--> Open another editor --> esc + :q! --> closes the editor
+					Code has been merged.
+			--> It goes to conflict stage
+					--> git abort
+					--> fix the merge issues .
+							GOto file and remove extra code and put only valid code
+							and follow 2-5 steps again.
+							Fixed merge
+		6.git push
+		
+	Branching :
+		To know what are all branches
+			git branch
+			git branch -r
+			
+		To create a local branch
+			git branch <branch-name>
+			
+		To switch or move to another branch
+			git checkout <branch-name>
+				
+	Merging :
+		git merge <branch-to-be-merged> --no-ff
+		
+		
+		
+	
+	
+	

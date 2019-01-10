@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="Bento Suite" >
+
+<!-- <listeners>
+	<listener class-name=""></listener>
+</listeners> -->
+
+   <test name="RunTests">
+   <!-- <packages>
+   		<package name="com.bento.tests.addemployee"></package>
+   </packages> -->
+       <classes>         	
+			<class name="com.bento.tests.addemployee.TestSignIn"/>
+			<class name="com.bento.tests.addemployee.TestAddSingleEmployee"/>
+       </classes>
+    </test>    
+ 
+</suite>
